@@ -50,5 +50,37 @@ model = LogisticRegression()
 visualizer = LearningCurve(model, scoring='accuracy')
 visualizer.fit(X_train, y_train)
 visualizer.show()
+```
+
+## Feature Importance
+```python
+from yellowbrick.model_selection import FeatureImportances
+from sklearn.ensemble import RandomForestClassifier
+
+# Load your dataset
+X, y = load_your_dataset()
+
+# Create a model (e.g., Random Forest)
+model = RandomForestClassifier()
+
+# Visualize feature importances
+visualizer = FeatureImportances(model)
+visualizer.fit(X, y)
+visualizer.show()
+```
+
+### Supported Stacks
+
+Yellow Bricks is compatible with a variety of machine learning stacks, including but not limited to:
+
+- [Scikit-Learn](https://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/)
+- [LightGBM](https://lightgbm.readthedocs.io/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [PyTorch](https://pytorch.org/)
+
+Check the [documentation](https://yellowbricks.readthedocs.io/) for the complete list of supported libraries and frameworks.
+
+Feel free to add or modify the links based on the official documentation or relevant resources for each library or framework.
 
 
