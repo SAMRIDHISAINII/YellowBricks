@@ -50,3 +50,5 @@ model = LogisticRegression()
 visualizer = LearningCurve(model, scoring='accuracy')
 visualizer.fit(X_train, y_train)
 visualizer.show()
+
+
