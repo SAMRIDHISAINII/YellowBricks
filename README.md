@@ -1,7 +1,5 @@
 # Yellow Bricks: Machine Learning Visualization Library
 
-![Yellow Bricks Logo](https://example.com/yellowbricks_logo.png)
-
 Yellow Bricks is a powerful machine learning visualization library built to enhance your data science workflow by providing insightful visualizations and tools to better understand, diagnose, and improve your machine learning models. Whether you are a beginner or an experienced practitioner, Yellow Bricks aims to make the process of model interpretation and evaluation more accessible and efficient.
 
 ## Why Yellow Bricks?
